@@ -3,27 +3,89 @@
     padding: 0;
     margin: 0;
 }*
+
 .logo_verde {
     background-color: rgba(128, 255, 149, 0.75);
 }
 
-
+/*
 .imagenprincipal__img--fluid   {
     height: 740px;
     width: 100%;
     font-size: 2rem;
-}
+}*/
 h3{
     font-family: 'Macondo', cursive;
     color: #000000;
     font-size: auto;
-    margin-right: 1400px;
+    margin-right: 100px;
 }
+
+.sectionicon {
+    display: flex;
+    padding: auto;
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+    gap: 5em;
+}
+
+.iconindex{
+    height: 150px;
+
+    font: size 2rem;
+}
+
+.figureicon {
+    font-size: auto;
+    margin-right: 4px;
+}
+.tituloiconindex    {
+    font-family: 'Macondo', cursive;
+    font-size: 1.5rem;
+}
+.textoicon{
+    font-family: 'Macondo', cursive;
+    font-size: 0.9rem;
+}
+
+
+/*
 .titulo__redes  {
     display:flex;
     padding: auto;
     width: auto;
     height: auto;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+}*/
+
+#contenedor {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.tierraviva {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+
+.redes{
+    background-image: url(../imagenes/background/verdeoscuro.jpg);
+    background-attachment: fixed;
+}
+
+.titulo_redes   {
+    text-align: center;
+    font-family: 'Macondo', cursive;
+    font-size: 2rem;
+
 }
 nav {
     background-color: rgba(128, 255, 149, 0.75);
@@ -39,7 +101,6 @@ nav {
     nav ul li a {
         text-decoration: none;
         font-family: 'Macondo', cursive;
-        font-size: 1.3;
         color: #368A0F;
     }
 
@@ -53,8 +114,16 @@ nav {
         font-weight: 600;
     }
 body{
-    background-image: url(../imagenes/background/background.jpg);
+    background-image: url(../imagenes/background/blancomate.jpg);
     background-attachment: fixed;
+}
+.galeriimg  {
+    display: flex;
+    align-items: center;
+}
+.videtoyt   {
+    display: flex;
+    align-items: center;
 }
 
 /*TIENDA*/
@@ -162,9 +231,9 @@ body{
    font: size 2rem;
 }
 #Donaciones .carpinchos {
-    margin: 20px;
-    display: flex;
-    justify-content: space-between;
+    height: 700px;
+
+   font: size 2rem;
 }
 #Donaciones .carpinchos figure{
     text-align: center;
@@ -186,115 +255,146 @@ body{
     font-size: 1.5rem;
 }
 
+/*galeria*/
+.imagennosotros{
+    width: 50px;
+    height: 50px;
+}
+
+
 /*GRIDS*/
-/*index*/
-.area {
-    display: grid;
-    grid-template-areas:
-    "nav"
-    "header"
-    "footer";
-    min-height: 100vh;
-    grid-template-rows: 100px 770px 100px ;
+/*galeria*/
+.imagen{
+    width: 100%;
 }
-@media all and (max-windth: 320px) {
-    nav    {
-        width: 100%;
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto;
-        grid-template-areas: "nav" "header" "footer";
-    }
+.imagen img {
+    width: 100%;
 }
-
-@media all and (max-windth: 320px) {
-    body    {
-        width: 100%;
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto;
-        grid-template-areas: "nav" "header" "footer";
-    }
-}
-@media all and (max-windth: 320px) {
-    footer    {
-        width: 100%;
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto;
-        grid-template-areas: "nav" "header" "footer";
-    }
-}
-
-/*  GRID NOSOTROS*/
-.nosotrosdiv    {
-    display: grid;
-    grid-template-areas:
-    "nav"
-    "header"
-    "footer footer footer";
-    min-height: 100vh;
-    grid-template-rows: 100px 770px 100px ;
-}
-.imgnosotros    {
-    position:flex ;
-    margin: 0%;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    text-align: center;
-}
-.nosotrosimg    {
-    height:300px;
-    width: 370px
-}
-.nosotrosimg    {
-    width: 380px;
-    height: 300px;
+.galeria    {
+    width: 100%;
     margin: auto;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: .5rem;
+    row-gap: .5rem;
 }
-
-/*Responsive Contacto*/
-@media all and (max-windth: 320px) {
-    .mapita    {
-        width: 100%;
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto;
-        grid-template-areas: auto;
+@media(min-width:100px){
+    .galeria{
+        grid-template-columns: repeat(1,1fr);
     }
 }
-
-/*Responsive Tienda*/
-.tienda {
-    display: grid;
-    grid-template-areas:
-    "nav      nav      nav      nav      nav"
-    "figure   figure   figure   figure   figure"
-    "figure   figure   figure   figure   figure"
-    "figure   figure   figure   figure   figure"
-    "fieldset fieldset fieldset fieldset fieldset";
-    min-height: 100vh;
-    grid-template-rows: 100px 770px 100px ;
+@media(min-width:520px){
+    .galeria{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
+@media(min-width:728px){
+    .galeria{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media(min-width:1024px){
+    .galeria{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+.trabajo{
+    width: 100%;
+}
+.trabajo img {
+    width: 100%;
+}
+.contenedortrabajo{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: .5rem;
+    row-gap: .5rem;
+}
+@media(min-width:100px){
+    .contenedortrabajo{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media(min-width:520px){
+    .contenedortrabajo{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(min-width:728px){
+    .contenedortrabajo{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media(min-width:1024px){
+    .contenedortrabajo{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+/*.gridindex  {
+    width: 90%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(6,auto);
+}
+.gridindex  >
+    botonera botonera,
+    animacionprincipal, animacionprincipal,
+    sectionicon, sectionicon,
+    imggaleria, videoyt,
+    imgtierraviva, imgtierraviva,
+    redes, redes {
+        padding: 20px;
+        border-radius: 4px;
+    }*/
+    .grid  {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(3,1fr);
+        gap: 2em;
+        align-items: stretch;
+        padding: 60px;
+        margin: auto;
+        column-gap: .5rem;
+        row-gap: .5rem;
+    }
+    .botonera   {
+        grid-column: 1/3;
+    }
+    .animacionprincipal {
+        grid-column: 1/3;
+    }
+    .sectionicon{
+        grid-column: 1/3;
+    }
+    .imggaleria {
+        grid-column: 1/2;
+    }
+    .videtoyt   {
+        grid-column: 2/3;
+    }
+    .imgtierraviva  {
+        grid-column: 1/3;
+    }
+    .redes{
+        grid-column: 1/3;
+    }
 
-/*Animación*/
 @keyframes animationheader {
-	0%	{background-image: url(../imagenes/imgprincipal/fondo1.jpg);}
-	25%	{background-image: url(../imagenes/imgprincipal/fondo2.jpg);}
-	50%	{background-image: url(../imagenes/imgprincipal/fondo3.jpg);}
-	75%	{background-image: url(../imagenes/imgprincipal/fondo4.jpg);}
-	100%{background-image: url(../imagenes/imgprincipal/fondo5.jpg);}
+	0%	{background-image: url(../imagenes/imgprincipal/remake5.jpg);}
+	25%	{background-image: url(../imagenes/imgprincipal/remake4.jpg);}
+	50%	{background-image: url(../imagenes/imgprincipal/remake3.jpg);}
+	75%	{background-image: url(../imagenes/imgprincipal/remake2.jpg);}
+	100%{background-image: url(../imagenes/imgprincipal/remake1.jpg);}
 }
 header{
-	height: 77vh;
+	height: 60vh;
 	background-size: cover;
 	animation: animationheader;
 	animation-iteration-count: infinite;
-	animation-duration: 7s;
+	animation-duration: 20s;
 }
 /*Transicion*/
 
@@ -313,6 +413,3 @@ header{
 	cursor: pointer;
 	transition: 1s;
 }
-
-
-
