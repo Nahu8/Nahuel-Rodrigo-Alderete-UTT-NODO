@@ -1,55 +1,150 @@
-<!DOCTYPE html>
-<html lang="EN">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NODO UTT</title>
-    <link rel="shortcut icon" href="imagenes/Icon-Logo/iconutt.jpg">
-   <link rel="stylesheet" href="css/style.css">
-   <link rel="stylesheet" href="css/animate.css">
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body>
-    <div class="grid" id="grilla">
-        <nav class="botonera" id="nava">
-            <img src="imagenes/Icon-Logo/logomejorado.png.png" alt="Logo Nodo UTT">
-            <ul class="navtable" id="navtable1">
-                <li>
-                    <a href="../UTT NODO/html/tienda.html">Tienda</a>
-                </li>
-                <li>
-                    <a href="../UTT NODO/html/nosotros.html">Quiénes somos</a>
-                </li>
-                <li>
-                    <a href="../UTT NODO/html/contacto.html">Contacto</a>
-                </li>
-                <li>
-                    <a href="../UTT NODO/html/donaciones.html">Podés ayudarnos!</a>
-                </li>
-            </ul>
-        </nav>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     
-        <header class="animacionprincipal">
+    <!--mi CSS-->
+    <link rel="stylesheet" href="css/stylermk.css">
+    <title>UTT NODO</title>
+    <!--icon-->
+    <link rel="shortcut icon" href="imagenes/Icon-Logo/iconutt.jpg">
+  </head>
+  <body class="grid">
+    <!--inicia nav-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-green">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="..//UTT NODO/bs.html">
+            <img src="imagenes/Icon-Logo/logomejorado.png.png" alt="logo" class="w-65">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./html/tienda.html">Tienda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./html/nosotros.html">Quiénes somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./html/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./html/donaciones.html">Podés ayudarnos!</a>
+              </li> 
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!--termina nav-->
 
-        </header>
+    <!--inicia Carrusel-->
+    <header class="imagenprincipal">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../imagenes/imgprincipal/remake1.jpg" class="d-block w-100" alt="fondoheader">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/imgprincipal/remake2.jpg" class="d-block w-100" alt="fondoheader">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/imgprincipal/remake3.jpg" class="d-block w-100" alt="fondoheader">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/imgprincipal/remake4.jpg" class="d-block w-100" alt="fondoheader">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/imgprincipal/remake5.jpg" class="d-block w-100" alt="fondoheader">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </header>
+    <!--termina Carrusel-->
 
-        <footer class="redes">
-            <h3 class="wow backInLeft"> Seguinos en nuestras redes sociales!</h3>
-            <a href="https://www.facebook.com/almacenutt" target="_blank">
-                <img src="imagenes/redes sociales/facebook.jpg" alt="seguinos en Facebook" style="height:50px;">
-            </a>
-            <a href="https://www.instagram.com/nodoutt_energias/?utm_medium=copy_link" target="_blank">
-                <img src="imagenes/redes sociales/instagram.jpg" alt="seguinos en Instagram" style="height:50px;">
-            </a>
-            <a href="https://twitter.com/uttnacional?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
-                <img src="imagenes/redes sociales/twitter.png" alt="seguinos en Twitter" style="height:50px;">
-            </a>
-        </footer>
-    </div>
-    <script src="js/wow.min.js"></script>
-    <script>
-    new WOW().init();
-    </script>
-</body>
+    <!--Grillas-->
+    <main>
+        <div class="conteiner-fluid">
+            <h1 class="mt-2 text-center"></h1>
+            <section class="row py-2">
+                <article class="col-sm-12 col-md-6 col-lg-3">
+                    <a href="./html/nosotros.html">
+                        <img src="imagenes/Icon-Logo/icon.png" alt="icon" class="w-50 img-thumbnail">
+                    </a>
+                        <h5 class="titulo-cards">¿Quiénes somos?</h5>
+                        <p class="textoicon">
+                            Somos una organización nacional integrada por pequeñas
+                            productoras hechas por familias campesinas y luchamos por
+                             una argentina justa e igualitaria.
+                        </p>    
+                </article>
+                <article class="col-sm-12 col-md-6 col-lg-3">
+                    <a href="./html/contacto.html">
+                        <img src="imagenes/Icon-Logo/icon.png" alt="icon" class="w-50 img-thumbnail">
+                    </a>
+                        <h5 class="titulo-cards">¿Cómo contactarnos?</h5>
+                        <p class="textoicon">
+                            Hace click acá y te contamos cómo hacerlo.
+                        </p>   
+                </article>
+                <article class="col-sm-12 col-md-6 col-lg-3">
+                    <a href="./html/donaciones.html">
+                        <img src="imagenes/Icon-Logo/icon.png" alt="icon" class="w-50 img-thumbnail">
+                    </a>
+                        <h5 class="titulo-cards">¿Por qué te pedimos que colabores con nosotros?</h5>
+                        <p class="textoicon">
+                            Para dar a conocer aquellos productores pequeños
+                            que luchan el día a día para crecer.
+                        </p>    
+                </article>
+                <article class="col-sm-12 col-md-6 col-lg-3">
+                    <h5>Mirá un poco de nosotros</h5>
+                    <iframe width="400" height="400" src="https://www.youtube.com/embed/cAAxBpl3H6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </article>
+                <article class="col-sm-12 col-md-12 col-lg-12">
+                  <a href="./html/galeriabs.html">
+                      <img src="imagenes/imgprincipal/galeriafotos.jpg" alt="icon" class="w-100 img-thumbnail">
+                  </a>
+                  <article class="col-sm-12 col-md-12 col-lg-12">
+                        <img src="imagenes/imgprincipal/extra.jpg" alt="icon" class="w-100 img-thumbnail">
+            </section>
+        </div>
+    </main>
+    <!--termina grillas-->
+
+
+    <!--Empieza footer-->
+    <footer class="redes">
+      <h3 class="titulo_redes"> Seguinos en nuestras redes sociales!</h3>
+          <a href="https://www.facebook.com/almacenutt" target="_blank">
+              <img src="imagenes/redes sociales/facebook.jpg" alt="seguinos en Facebook" style="height:50px;" class="redesiconito">
+          </a>
+          <a href="https://www.instagram.com/nodoutt_energias/?utm_medium=copy_link" target="_blank">
+              <img src="imagenes/redes sociales/instagram.jpg" alt="seguinos en Instagram" style="height:50px;" class="redesiconito">
+          </a>
+          <a href="https://twitter.com/uttnacional?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank class="redesiconito">
+              <img src="imagenes/redes sociales/twitter.png" alt="seguinos en Twitter" style="height:50px;">
+          </a>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--termina footer-->
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
 </html>
