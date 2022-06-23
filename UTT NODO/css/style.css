@@ -97,25 +97,25 @@ nav {
 
     .titulo-tienda{
         text-align: center;
-        font-family: 'Macondo';
+        font-family: 'Macondo', cursive;
         background-color: rgba(128, 255, 149, 0.75);
     }
 
     .titulo-bolsones{
         text-align: center;
-        font-family: 'Macondo';
+        font-family: 'Macondo', cursive;;
         background-color: rgba(128, 255, 149, 0.75);
     }
 
     .titulo-bolson{
         text-align: center;
-        font-family: 'Macondo';
+        font-family: 'Macondo', cursive;;
         background-color: rgba(128, 255, 149, 0.75);
     }
 
     .texto-bolson{
         text-align: center;
-        font-family: 'Macondo';
+        font-family: 'Macondo', cursive;;
         background-color: rgba(128, 255, 149, 0.75);
     }
 
@@ -179,11 +179,3 @@ nav {
         font-family: 'Macondo', cursive;
         background-color: rgba(128, 255, 149, 0.75)
     }
-
-
-
-    
-
-
-
-
