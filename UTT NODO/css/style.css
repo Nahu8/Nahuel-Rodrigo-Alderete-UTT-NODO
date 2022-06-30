@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2? family= Macondo & family= Patrick+Hand & family= Marcador+permanente & display=swap');
 .bg-green {
     background-color: rgba(128, 255, 149, 0.75);
@@ -173,9 +174,8 @@ nav {
     }
     .texto-donacion{
         font-family: 'Macondo', cursive;
-        font-size: 1.5rem;
-    }
+        font-size: 1.5rem;  }
     .texto-icon {
         font-family: 'Macondo', cursive;
         background-color: rgba(128, 255, 149, 0.75)
-    }
+    }   
