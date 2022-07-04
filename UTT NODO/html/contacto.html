@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -44,20 +44,22 @@
     </nav>
     <!--termina nav-->
     <h1 class="titulo-contacto">Querés que te hablemos? Dejanos tus datos!</h1>
-    <section class="clientedato">
-        <fieldset>
-            <legend>Tus datos</legend>
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
-            <br>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="Ingrese su correo">
-            <br>
-            <label for="telefono">Teléfono</label>
-            <input type="text" name="telefono" id="telefono" placeholder="Ingrese su teléfono">
-            <br>        
-        </fieldset>
-    </section>
+    <form class="clientedato">
+      <legend>Tus datos</legend>
+      <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input class="form-control" id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre"/>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input class="form-control"  id="email" type="text" name="email" placeholder="Ingrese su mail"/>
+      </div>
+      <div class="cliente-dato form-group">
+        <label for ="email">Telefono:</label>
+        <input class="form-control"  id="telefono" type="text" name="telefono" placeholder="Ingrese su telefono"/>
+      </div>
+      <button type="submit" class="boton btn btn-default">Enviar</button>
+    </form>
     <h1 class="titulo-contacto">Nuestro contacto</h1>
     <section class="uttdato">
         <ul>
