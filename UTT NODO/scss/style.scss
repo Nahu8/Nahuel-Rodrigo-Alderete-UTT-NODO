@@ -1,5 +1,5 @@
-@import "./background.scss";
-@import "./letra.scss";
+@import _background
+@import _letra
 @import url('https://fonts.googleapis.com/css2? family= Macondo & family= Patrick+Hand & family= Marcador+permanente & display=swap');
 .bg-green {
     background-color: rgba(128, 255, 149, 0.75);
