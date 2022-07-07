@@ -1,0 +1,9 @@
+@import './colores';
+@mixin sizes($hancho, $alto) {
+    height: $alto;
+    width: $hancho;
+}
+@mixin textos($text-aling, $color-fondo){
+    text-align: $text-aling;
+    background-color: $color-fondo;
+}

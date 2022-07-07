@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2? family= Macondo & family= Patrick+Hand & family= Marcador+permanente & display=swap");
+nav {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(128, 255, 149, 0.75);
+  font-size: 1.5rem;
+  position: sticky;
+  top: 5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+  font-family: "Macondo", cursive;
+  color: #368A0F;
+}
+
+body {
+  background-image: url(../imagenes/background/blancomate.jpg);
+  background-attachment: fixed;
+  font-family: "Macondo", cursive;
+}
+
+footer {
+  background-color: rgb(4, 75, 4);
+}
+
+h1 {
+  text-align: center;
+  background-color: rgba(128, 255, 149, 0.75);
+}
+
+.img-thumbnail1 {
+  height: 300px;
+  width: 100%;
+}
+
+.img-thumbnail {
+  height: 100px;
+  width: 100px;
+}
+
+.d-block {
+  height: 600px;
+  width: 60px;
+}
+
+.trabajo img {
+  height: 420px;
+  width: 100%;
+}
+
+.imagennosotros img {
+  height: 420px;
+  width: 100%;
+}
+
+.galeria {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 0.5rem;
+  row-gap: 0.5rem;
+}
+
+.contenedortrabajo {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 0.5rem;
+  row-gap: 0.5rem;
+}
+
+.titulo-bolson {
+  text-align: center;
+  background-color: rgba(128, 255, 149, 0.75);
+}
+
+.img-indumentaria {
+  height: 400px;
+  width: 100%;
+}
+
+.img-promo {
+  height: 600px;
+  width: 100%;
+}
+
+.Compra-fin {
+  text-align: center;
+  background-color: rgba(128, 255, 149, 0.75);
+}
+
+.nosotros {
+  font-size: 1.5rem;
+}
+
+.img-thumbnail2 {
+  height: 100%;
+  width: 100%;
+}
+
+.uttdato {
+  text-align: center;
+}
+
+.ubicacion {
+  height: 100%;
+  width: 100%;
+}
+
+.texto-donacion {
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */

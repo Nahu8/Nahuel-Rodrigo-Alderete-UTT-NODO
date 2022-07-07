@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Querés que te hablemos? Dejanos tus datos!">
+    <meta name="author" content="Nahuel Rodrigo Alderete">
+    <meta name="keywords" content="UTT, Nuestro contacto, contacto, tus datos, Nombre, Email, Telefono">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!--mi CSS-->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contacto</title>
+    <!--icon-->
+    <link rel="shortcut icon" href="../imagenes/Icon-Logo/iconutt.jpg">
+  </head>
+  <body class="grid">
+    <!--inicia nav-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-green">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../imagenes/Icon-Logo/logomejorado.png.png" alt="logo" class="w-65">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../html/tienda.html">Tienda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../html/nosotros.html">Quiénes somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../html/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../html/donaciones.html">Podés ayudarnos!</a>
+              </li> 
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!--termina nav-->
+    <h1 class="titulo-contacto">Querés que te hablemos? Dejanos tus datos!</h1>
+    <form class="clientedato">
+      <legend>Tus datos</legend>
+      <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input class="form-control" id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre"/>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input class="form-control"  id="email" type="text" name="email" placeholder="Ingrese su mail"/>
+      </div>
+      <div class="cliente-dato form-group">
+        <label for ="email">Telefono:</label>
+        <input class="form-control"  id="telefono" type="text" name="telefono" placeholder="Ingrese su telefono"/>
+      </div>
+      <button type="submit" class="boton btn btn-default">Enviar</button>
+    </form>
+    <h1 class="titulo-contacto">Nuestro contacto</h1>
+    <section class="uttdato">
+        <ul class="uttdato">
+            <li>Número de línea: 02002-444444</li>
+            <li>Wsp: +54 11-000-000</li>
+            <li>Correo: uttnodo@gmail.com</li>
+        </ul>    
+    </section>
+    <h1 class="titulo-contacto">Cómo llegar</h2>
+        <main>
+            <div class="conteiner-fluid">
+                <section class="ubicacion row py-2">
+                  <article class="col-sm-12 col-md-6 col-lg-4">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.8663969853806!2d-58.642113384400105!3d-34.80930298040679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc4ab66bf23ad%3A0x1227530d43f85beb!2sBragado%202322%2C%20B1763ETF%20Virrey%20del%20Pino%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1652860583061!5m2!1ses-419!2sar"
+                    width="380" height="380" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </article>
+                <article class="col-sm-12 col-md-6 col-lg-4">
+                  <img src="../imagenes/imgprincipal/local.jpg" alt="icon" class=" img-local w-100 img-thumbnail2">   
+                </article>
+                    <article class="col-sm-12 col-md-6 col-lg-3">
+                        <ul>
+                            <li>Provincia: Buenos Aires</li>
+                            <li>Partido: La Matanza</li>
+                            <li>Localidad: Virrey Del Pino</li>
+                            <li>Dirección: Avenida Siempre Viva 123</li>
+                        </ul>
+                    </article>
+                </section>
+            </div>
+        </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
