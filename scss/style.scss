@@ -113,11 +113,43 @@ h1{
 .grupo-2{
     text-align: center;
 }
-
 .footer-home{
     color: black;
     display: inline-block;
     text-decoration: none;
     list-style: none;
-
+}
+.container-error404{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.error404{
+    margin: 10%;
+    padding: 0;
+    width: 50%;
+}
+.img-bolson:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 2s;
+}
+.img-indumentaria:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 2s;
+}
+.img-promo:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 2s;
+}
+.imagen_donacion:hover{
+    padding: auto;
+    margin: 2%;
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 2s;
 }
