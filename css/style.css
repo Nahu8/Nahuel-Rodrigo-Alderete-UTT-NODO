@@ -15,7 +15,6 @@ nav ul li {
   list-style: none;
   display: inline-block;
   margin: 10px;
-  text-decoration: none;
   font-family: "Macondo", cursive;
   color: #368A0F;
 }
@@ -144,6 +143,13 @@ h1 {
 
 .grupo-2 {
   text-align: center;
+}
+
+.footer-home {
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
 }
 
 /*# sourceMappingURL=style.css.map */
