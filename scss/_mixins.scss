@@ -7,3 +7,7 @@
     text-align: $text-aling;
     background-color: $color-fondo;
 }
+@mixin margin($auto1, $auto2){
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -21,13 +21,13 @@ nav{
     }
 }
 body{
-    background-image: url(../imagenes/background/blancomate.jpg);
+    background-image: url(../imagenes/background/blancomate.webp);
     background-attachment: fixed;
     font-family: 'Macondo', cursive;
 }
 
 footer{
-    background-color:$color-footer ;
+    background-color:$color-fondo ;
 }
 h1{
     text-align: center;
@@ -93,3 +93,27 @@ h1{
 .texto-donacion{
     font-size: 1.5rem;
 }
+.clientedato{
+    width: 200px;
+    @include margin(auto, auto);
+    @include sizes(20%,100%)
+}
+
+  
+.icon-footer{
+    padding: auto;
+    margin:4%;
+     @include sizes(100%, 100%);
+    text-align : center;
+    }
+.grupo-1{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: .1rem;
+    row-gap: .1rem; 
+}
+.grupo-2{
+    text-align: center;
+}
+
